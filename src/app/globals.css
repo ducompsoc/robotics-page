@@ -2,6 +2,7 @@
 
 @theme inline {
   --color-background: #140316;
+  --color-background-warm: #5a092a;
   --color-foreground: #fde5ff;
   --color-primary: #833389;
   --color-primary-muted: #68246d;
@@ -13,9 +14,13 @@
 .bg-gradient {
   background: linear-gradient(
     to top,
-    #5a092a 0%,
-    #3d0622 19%,
+    var(--color-background-warm) 0%,
+    #3d0622 10%,
     #20041a 40%,
     var(--color-background) 100%
   );
+}
+
+.warm-glow {
+  box-shadow: 0 0 3em var(--color-background-warm);
 }
