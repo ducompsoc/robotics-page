@@ -38,7 +38,7 @@ export default function Home() {
         <div className="flex-2 flex items-center justify-center">
           <ButtonLink
             href="https://forms.gle/ZYESVUPDZFtXi4zy5"
-            className="bg-background text-contrast warm-glow "
+            className="bg-contrast text-background warm-glow "
           >
             Join the Exec
           </ButtonLink>
